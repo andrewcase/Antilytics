@@ -2,31 +2,32 @@
 
 <?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
 <?xml-stylesheet type="text/css"
-  href="chrome://xulschoolhello/skin/browserOverlay.css" ?>
+  href="chrome://antilytics/skin/browserOverlay.css" ?>
 
 <!DOCTYPE overlay SYSTEM
-  "chrome://xulschoolhello/locale/browserOverlay.dtd">
+  "chrome://antilytics/locale/browserOverlay.dtd">
 
-<overlay id="xulschoolhello-browser-overlay"
+<overlay id="antilytics-browser-overlay"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
   <script type="application/x-javascript"
-    src="chrome://xulschoolhello/content/browserOverlay.js" />
+    src="chrome://antilytics/content/browserOverlay.js" />
 
   <stringbundleset id="stringbundleset">
-    <stringbundle id="xulschoolhello-string-bundle"
-      src="chrome://xulschoolhello/locale/browserOverlay.properties" />
+    <stringbundle id="antilytics-string-bundle"
+      src="chrome://antilytics/locale/browserOverlay.properties" />
   </stringbundleset>
 
-  <menubar id="main-menubar">
-    <menu id="xulschoolhello-hello-menu" label="&xulschoolhello.hello.label;"
-      accesskey="&xulschoolhello.helloMenu.accesskey;" insertafter="helpMenu">
+  <menupopup id="menu_ToolsPopup">
+    <menu id="xs-hw-hello-menu" label="&antilytics.hello.label;"
+      accesskey="&antilytics.helloMenu.accesskey;"
+      insertafter="javascriptConsole,devToolsSeparator">
       <menupopup>
-        <menuitem id="xulschoolhello-hello-menu-item"
-          label="&xulschoolhello.hello.label;"
-          accesskey="&xulschoolhello.helloItem.accesskey;"
-          oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
+        <menuitem id="antilytics-hello-menu-item"
+          label="&antilytics.hello.label;"
+          accesskey="&antilytics.helloItem.accesskey;"
+          oncommand="AntilyticsChrome.BrowserOverlay.sayHello(event);" />
       </menupopup>
     </menu>
-  </menubar>
+  </menupopup>
 </overlay>

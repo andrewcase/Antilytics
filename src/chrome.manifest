@@ -1,5 +1,5 @@
-content   antilytics              jar:chrome/./content/
-skin      antilytics  classic/1.0 jar:chrome/./skin/
-locale    antilytics  en-US       jar:chrome/./locale/en-US/
+content   antilytics              jar:chrome/antilytics.jar!/content/
+skin      antilytics  classic/1.0 jar:chrome/antilytics.jar!/skin/
+locale    antilytics  en-US       jar:chrome/antilytics.jar!/locale/en-US/
 
 overlay chrome://browser/content/browser.xul  chrome://antilytics/content/browserOverlay.xul

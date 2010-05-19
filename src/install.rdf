@@ -5,12 +5,11 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{9771e51e-b597-49f1-a463-54ea8d4b12b8}</em:id>
-    <em:name>AntiLytics</em:name>
-    <em:description>A privacy plugin to protect users surfing habbits from programs like Google Analytics</em:description>
+    <em:name>Antilytics</em:name>
+    <em:description>A privacy plugin to protect users surfing habbits from 3rd party programs like Google Analytics</em:description>
     <em:version>0.0.1</em:version>
+    <em:creator>Andrew Case <tsadok@cims.nyu.edu></em:creator>
     <em:creator>Daniel Tsadok <tsadok@cims.nyu.edu></em:creator>
-    <em:developer>Andrew Case <acase@cims.nyu.edu></em:developer>
-    <em:developer>Daniel Tsadok <tsadok@cims.nyu.edu></em:developer>
     <em:homepageURL>http://cs.nyu.edu/antilytics</em:homepageURL>
     <em:type>2</em:type>
 
